@@ -5,6 +5,7 @@ import org.springframework.boot.runApplication
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer
 
 @SpringBootApplication
+@EnableEurekaServer
 class MsaDiscoveryApplication
 
 fun main(args: Array<String>) {
